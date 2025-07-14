@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    color: white;
+}
+body{
+    background: linear-gradient(45deg, #150026, #4D008C );
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    
+}
+
+.container{
+    padding: 20px;
+    position: relative; 
+    top: 80px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: #280247;
+    opacity: 100%;
+    box-shadow: 0px 0px 10px 5px white;
+    height: 500px;
+    width: 1000px;
+    border-radius: 20px;
+
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.passBox{
+    padding-left: 20px;
+    color: #280247;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+.box {
+    margin: 0 auto;
+    position: relative;
+    }
+.box span{
+    cursor: pointer;
+    position: absolute;
+    color: #5e01aa;
+    right: 15px;
+    bottom: 35px;
+}
+
+.box input{
+    border-radius: 80px;
+    background-color: white;
+    width: 400px;
+    height: 50px;   
+    margin-bottom: 20px;
+}
+
+.lengthpass{
+    margin: 0 auto;
+    width: 400px;
+    accent-color: #5e01aa;
+    
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.row label{
+    cursor: pointer;
+}
+.row input[type=checkbox]{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.row span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.generateButton{
+    color: white;
+    background-color: #4D008C;
+    /* display: flex;
+    justify-content: center; */
+    margin: 0 auto;
+    width: 20%;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.generateButton:hover{
+    color: #4D008C;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
