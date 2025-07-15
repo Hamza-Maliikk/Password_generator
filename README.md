@@ -17,7 +17,7 @@ Users can customize their passwords based on the following options:
 Once the password is generated, users can simply click a button to copy it to their clipboard, allowing for easy pasting wherever needed—no manual selection required.
 
 This tool is perfect for users looking for convenience, customization, and strong security in one simple UI.
-Here is a link you can use it👇
+Here is a link you can use it👉
 https://passgenerateer.netlify.app/
 
 
